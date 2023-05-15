@@ -1,0 +1,98 @@
+/* RESETANDO CSS */
+
+/* (Para todas as tags eu quero RESETAR) */
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    font-family: 'Oswald', sans-serif;;
+    vertical-align: baseline;
+}
+html {
+    scroll-behavior: smooth;
+}
+body{
+background-color:#014886;
+position: relative;
+
+}
+
+/* START DIV QUE ENGLOBA O SITE */
+
+.site {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    box-shadow: 2px 0px 20px rgba(0, 0, 0, 0.8);
+}
+
+/* END DIV QUE ENGLOBA O SITE */
+
+/* START CORPO SITE */
+.cont-main{
+    width: 1200px;
+    margin: 0px auto;
+    background-color: #5ebaf7;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.adm{
+    width: 1200px;
+    margin: 0px auto;
+    background-color: #5ebaf7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+.adm input{
+    width: 600px;
+    margin: 10px;
+}
+
+/* END CORPO SITE */
+.redes-sociais-lateral {
+    width: 40px;
+    height: 250px;
+    background-color: rgba(20, 18, 18, 0.658);
+    border-top: 1px solid grey;
+    border-right: 1px solid grey;
+    border-bottom: 1px solid grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    position: fixed;
+    padding: 10px;
+    border-radius: 0 10px 10px 0;
+    left: 0px;
+    top: 200px;
+    transition: all 1s;
+}
+.redes-sociais-lateral:hover{
+ background-color: rgba(46, 41, 41, 0.658);
+}
+.redes-sociais-lateral img:hover {
+    transform: scale(1.1);
+} 
+
+.redes-sociais-lateral li{
+    list-style: none;   
+    margin: 10px; 
+    padding: 10px 0;
+}
+
+
+
+
+
+
+
+
+
+
