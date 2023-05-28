@@ -1,0 +1,17 @@
+.btn{
+    padding: 1px 30px;
+    border-radius: 15px;
+}
+.btn-adm.btn-branco{
+    padding: 0px 30px;
+    border-radius: 30px;
+    background-color: white;
+}
+.btn.btn-branco{
+    background-color: white;
+}
+.btn.btn-azul{
+    color: white;
+    background-color: rgb(40, 0, 116);
+}
+
